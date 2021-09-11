@@ -48,9 +48,6 @@ class CheckInOutController implements Controller {
     console.log({checkIn});
     return res.send(HttpStatusEnum.SUCCESS).json(checkIn);
   }
-
-
-
 }
 
 export default CheckInOutController;
